@@ -1,8 +1,28 @@
-This Inventory Management System is a computer program that helps a shop keep track of all its products. It uses a few main parts:
+A simple and effective inventory tracking system built with Python. Designed to help small shops monitor and manage their stock with ease.
 
-- Product: This is like a basic template for each item in the shop. It includes important details such as the product’s name, brand, price, quantity in stock, and where it comes from.
-- Inventory: This part keeps a list of all products and their current quantities. It updates automatically whenever something is sold or more items are added.
-- Product Operations (Read/Write): These are the actions the program can do with products. It can read product information from a file to see what’s in stock, and write new data when products are sold, added, or restocked, making sure everything stays up to date and saved.
-- User Interface: This is the menu or screen that the shop owner or staff uses to work with the program. It lets them easily look at products, add new ones, sell items, restock, and update information with simple steps.
+## 🧩 Main Components
 
-In short, this program makes it easy for the shop to organize all its products, quickly handle sales and restocking, and always have an up-to-date record of the inventory.
+### 🛍️ Product
+Each item includes:
+- Name
+- Brand
+- Price
+- Quantity
+- Origin (supplier/location)
+
+### 📦 Inventory
+- Keeps a running list of all products and their stock levels
+- Updates automatically when items are sold or restocked
+
+### 📁 File Operations
+- **Read**: Loads product data from a file (e.g., `products.txt`)
+- **Write**: Saves updated stock levels and changes back to the file
+
+### 🖥️ User Interface
+- Menu-driven console interface
+- Simple options for viewing, adding, selling, or restocking products
+- Easy for shop owners or staff to use without technical background
+
+## 🛠️ Built With
+- Python (core functionality)
+- File handling for data storage (`open()`, `readlines()`, `write()`)
